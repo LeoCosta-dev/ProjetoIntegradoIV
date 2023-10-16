@@ -38,7 +38,7 @@ git clone git@github.com:LeoCosta-dev/ProjetoIntegradoIV.git
 cd ProjetoIntegradoIV
 ```
 
-* Instale as dependencias do proejto com o comando abaixo já com o terminal aberto na pasta do proejto:
+* Instale as dependencias do projeto com o comando abaixo já com o terminal aberto na pasta do proejto:
 ```
 composer install
 ```
