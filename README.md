@@ -7,60 +7,54 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Projeto Integrado IV
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Sobre a aplicação:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Foi prosta a criação de um menu simples com quatro hiperlinks externos, dos quais foram escolhidos a documentação do framework, a documentação da linguagem, o donwload de uma das dependencias e por fim o link deste repositório. O menu segue as tags semanticas de "header", "nav" e "li", com os seus links abrindo em uma nova aba do navegador.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img align="center" src="./public/image.png" />
 
-## Learning Laravel
+## Rodando localmente:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Para acessar a aplicação localmente é necessário ter instalado o php versão => 7.4 instalado. Caso necessário consulte<a href="https://www.php.net/manual/pt_BR/install.php"> documentação de instalação php aqui.</a> e o instalador de dependencias composer que pode ser baixado <a href="https://getcomposer.org/download/">aqui</a>.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<br>
+Também será necessário ter o <a href="https://git-scm.com/downloads">git</a> já configurado em sua máquina
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<br>
 
-## Laravel Sponsors
+* Clone o projeto com o seguinte comando em um terminal:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
+git clone https://github.com/LeoCosta-dev/ProjetoIntegradoIV.git
+```
+ou
+```
+git clone git@github.com:LeoCosta-dev/ProjetoIntegradoIV.git
+```
 
-### Premium Partners
+* Navegue para a pasta do projeto colando o comando abaixo no mesmo terminal:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```
+cd ProjetoIntegradoIV
+```
 
-## Contributing
+* Instale as dependencias do proejto com o comando abaixo já com o terminal aberto na pasta do proejto:
+```
+composer install
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Inicialize o servidor com o comando abaixo ainda com o terminal aberto na pasta do proejto:
 
-## Code of Conduct
+```
+php artisan serve
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Após esses passos o servidor será inicializado em:
 
-## Security Vulnerabilities
+```
+http://localhost:8000
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+basta acessar esse endereço no navegador para visualizar a aplicação.
