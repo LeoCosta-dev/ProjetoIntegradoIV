@@ -18,10 +18,8 @@ Foi prosta a criação de um menu simples com quatro hiperlinks externos, dos qu
 ## Rodando localmente:
 
 Para acessar a aplicação localmente é necessário ter instalado o php versão => 7.4 instalado. Caso necessário consulte<a href="https://www.php.net/manual/pt_BR/install.php"> documentação de instalação php aqui.</a> e o instalador de dependencias composer que pode ser baixado <a href="https://getcomposer.org/download/">aqui</a>.
-
 <br>
 Também será necessário ter o <a href="https://git-scm.com/downloads">git</a> já configurado em sua máquina
-
 <br>
 
 * Clone o projeto com o seguinte comando em um terminal:
