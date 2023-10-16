@@ -27,12 +27,12 @@
             width: 100%;
             align-items: center;
             justify-content: space-between;
+            height: 100px;
         }
 
         nav{
             display: flex;
             width: 50%;
-            height: 100px;
             align-items: center;
         }
 
@@ -61,6 +61,24 @@
             font-family: 'Bebas Neue', sans-serif;
             color: rgb(247,247,247);
             margin-left: 10px;
+        }
+
+        @media (max-width: 1000px){
+            header{
+                flex-direction: column;
+                height: fit-content;
+            }
+
+            h1{
+                margin: 5px 0;
+            }
+            nav{
+                flex-direction: column;
+            }
+            li{
+                margin: 5px 0;
+                width: 90%;
+            }
         }
     </style>
 </head>
